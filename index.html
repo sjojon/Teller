@@ -7,14 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-
 </head>
 
 <body>
-    <div id="counter"></div>
+    <div id="counter">0</div>
     <button onclick="add()">+</button>
     <button onclick="sub()">-</button>
-
     <script>
         var outputDiv = document.getElementById('counter');
         var numToShow = 0;
@@ -28,8 +26,8 @@
             numToShow = numToShow - 1;
             outputDiv.innerHTML = numToShow;
         }
-
     </script>
+
 </body>
 
 </html>
